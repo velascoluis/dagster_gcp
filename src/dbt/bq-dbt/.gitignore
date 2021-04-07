@@ -1,0 +1,7 @@
+analysis/
+data/
+target/
+snapshots/
+macros/
+dbt_modules/
+logs/

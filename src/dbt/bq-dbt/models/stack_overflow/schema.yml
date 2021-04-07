@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+    - name: stack_overflow_stage
+      description: "Aggregation of stackoverflow posts"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
